@@ -1,0 +1,8 @@
+set(__QT_DEPLOY_TARGET_DashboardExample_FILE /home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/bin/DashboardExample)
+set(__QT_DEPLOY_TARGET_DashboardExample_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_DashboardPlugin_FILE /home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/qml/Dashboard/libDashboardPlugin.so)
+set(__QT_DEPLOY_TARGET_DashboardPlugin_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_DashboardPluginplugin_FILE /home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/qml/Dashboard/libDashboardPluginplugin.so)
+set(__QT_DEPLOY_TARGET_DashboardPluginplugin_TYPE MODULE_LIBRARY)
+set(__QT_DEPLOY_TARGET_ModernDashboardQML_FILE /home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/ModernDashboardQML)
+set(__QT_DEPLOY_TARGET_ModernDashboardQML_TYPE EXECUTABLE)

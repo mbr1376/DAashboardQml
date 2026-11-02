@@ -1,0 +1,16 @@
+-rootPath
+/home/client112/Documents/project/myself/qt-qml
+-cmake-output
+-output-file
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/.qt/qml_imports/ModernDashboardQML_conf.cmake
+-importPath
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/qml
+-importPath
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardApp
+-importPath
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug
+-importPath
+/home/client112/Qt/6.10.1/gcc_64/qml
+-qrcFiles
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/.qt/rcc/qmake_DashboardApp.qrc
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/.qt/rcc/ModernDashboardQML_raw_qml_0.qrc

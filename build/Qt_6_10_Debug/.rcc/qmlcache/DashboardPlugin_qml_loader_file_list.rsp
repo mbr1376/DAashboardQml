@@ -1,0 +1,17 @@
+--resource
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/.qt/rcc/qmake_Dashboard.qrc
+--resource
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/.qt/rcc/DashboardPlugin_raw_qml_0.qrc
+/qt/qml/Dashboard/DashboardView.qml
+/qt/qml/Dashboard/DashboardBuilder.qml
+/qt/qml/Dashboard/DashboardWidget.qml
+/qt/qml/Dashboard/DashboardChart.qml
+/qt/qml/Dashboard/Theme.qml
+/qt/qml/Dashboard/Sidebar.qml
+/qt/qml/Dashboard/TopBar.qml
+/qt/qml/Dashboard/StatCard.qml
+/qt/qml/Dashboard/DataTable.qml
+/qt/qml/Dashboard/DashboardPage.qml
+/qt/qml/Dashboard/AnalyticsPage.qml
+/qt/qml/Dashboard/ReportsPage.qml
+/qt/qml/Dashboard/UsersPage.qml

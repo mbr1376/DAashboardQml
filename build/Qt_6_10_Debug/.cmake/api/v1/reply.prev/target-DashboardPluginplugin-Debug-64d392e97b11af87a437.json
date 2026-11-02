@@ -1,0 +1,441 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "qml/Dashboard/libDashboardPluginplugin.so"
+		}
+	],
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_add_library",
+			"qt6_add_plugin",
+			"qt6_add_qml_plugin",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"target_compile_definitions",
+			"add_compile_definitions",
+			"project",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"CMakeLists.txt",
+			"/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
+			"/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"build/Qt_6_10_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
+			"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"build/Qt_6_10_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1418,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 922,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2693,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2684,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2891,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 2958,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 2954,
+				"parent" : 3
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 235,
+				"parent" : 10
+			},
+			{
+				"file" : 9,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 40,
+				"parent" : 12
+			},
+			{
+				"file" : 8,
+				"parent" : 13
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 50,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 142,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 16
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 254,
+				"parent" : 17
+			},
+			{
+				"file" : 4,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 55,
+				"parent" : 19
+			},
+			{
+				"file" : 3,
+				"parent" : 20
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 61,
+				"parent" : 21
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 2768,
+				"parent" : 4
+			},
+			{
+				"command" : 15,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 10,
+				"parent" : 24
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 82,
+				"parent" : 25
+			},
+			{
+				"command" : 16,
+				"file" : 1,
+				"line" : 2947,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "DashboardPluginplugin_EXPORTS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_DEPRECATED_WARNINGS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "QT_PLUGIN"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "QT_QML_DEBUG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_QML_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardPluginplugin_autogen/include"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/client112/Qt/6.10.1/gcc_64/include/QtQml"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/client112/Qt/6.10.1/gcc_64/include"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/client112/Qt/6.10.1/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/client112/Qt/6.10.1/gcc_64/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/client112/Qt/6.10.1/gcc_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/client112/Qt/6.10.1/gcc_64/include/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					9,
+					9
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "DashboardPlugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "DashboardPluginplugin_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "DashboardPluginplugin_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "DashboardPluginplugin::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 7,
+				"path" : "lib64/qt6/qml/Dashboard"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/tmp"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/qml/Dashboard:/home/client112/Qt/6.10.1/gcc_64/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "qml/Dashboard/libDashboardPlugin.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/client112/Qt/6.10.1/gcc_64/lib/libQt6Qml.so.6.10.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/client112/Qt/6.10.1/gcc_64/lib/libQt6Network.so.6.10.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/home/client112/Qt/6.10.1/gcc_64/lib/libQt6Core.so.6.10.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/client112/Qt/6.10.1/gcc_64/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "DashboardPluginplugin",
+	"nameOnDisk" : "libDashboardPluginplugin.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_10_Debug/DashboardPluginplugin_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_10_Debug/DashboardPluginplugin_DashboardPlugin.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_10_Debug/DashboardPluginplugin_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_10_Debug/DashboardPluginplugin_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

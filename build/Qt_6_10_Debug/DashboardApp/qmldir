@@ -1,0 +1,6 @@
+module DashboardApp
+typeinfo ModernDashboardQML.qmltypes
+prefer :/qt/qml/DashboardApp/
+Main 1.0 Main.qml
+depends QtQuick
+

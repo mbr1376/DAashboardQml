@@ -1,0 +1,16 @@
+module Dashboard
+plugin DashboardPluginplugin
+typeinfo DashboardPlugin.qmltypes
+DashboardView 1.0 DashboardView.qml
+DashboardBuilder 1.0 DashboardBuilder.qml
+DashboardWidget 1.0 DashboardWidget.qml
+DashboardChart 1.0 DashboardChart.qml
+singleton Theme 1.0 Theme.qml
+Sidebar 1.0 components/Sidebar.qml
+TopBar 1.0 components/TopBar.qml
+StatCard 1.0 components/StatCard.qml
+DataTable 1.0 components/DataTable.qml
+DashboardPage 1.0 pages/DashboardPage.qml
+AnalyticsPage 1.0 pages/AnalyticsPage.qml
+ReportsPage 1.0 pages/ReportsPage.qml
+UsersPage 1.0 pages/UsersPage.qml

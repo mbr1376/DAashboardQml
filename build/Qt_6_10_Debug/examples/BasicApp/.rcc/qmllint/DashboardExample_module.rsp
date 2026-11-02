@@ -1,0 +1,12 @@
+-I
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/qml
+-I
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp
+-I
+/home/client112/Qt/6.10.1/gcc_64/qml
+--resource
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/.qt/rcc/qmake_DashboardExample.qrc
+--resource
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/.qt/rcc/DashboardExample_raw_qml_0.qrc
+--module
+DashboardExample

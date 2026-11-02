@@ -1,0 +1,21 @@
+module Dashboard
+linktarget DashboardPluginplugin
+optional plugin DashboardPluginplugin
+classname DashboardPlugin
+typeinfo DashboardPlugin.qmltypes
+prefer :/qt/qml/Dashboard/
+DashboardView 1.0 DashboardView.qml
+DashboardBuilder 1.0 DashboardBuilder.qml
+DashboardWidget 1.0 DashboardWidget.qml
+DashboardChart 1.0 DashboardChart.qml
+singleton Theme 1.0 Theme.qml
+Sidebar 1.0 Sidebar.qml
+TopBar 1.0 TopBar.qml
+StatCard 1.0 StatCard.qml
+DataTable 1.0 DataTable.qml
+DashboardPage 1.0 DashboardPage.qml
+AnalyticsPage 1.0 AnalyticsPage.qml
+ReportsPage 1.0 ReportsPage.qml
+UsersPage 1.0 UsersPage.qml
+depends QtQuick
+

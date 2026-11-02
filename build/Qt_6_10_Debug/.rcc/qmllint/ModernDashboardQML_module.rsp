@@ -1,0 +1,12 @@
+-I
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/qml
+-I
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug
+-I
+/home/client112/Qt/6.10.1/gcc_64/qml
+--resource
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/.qt/rcc/qmake_DashboardApp.qrc
+--resource
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/.qt/rcc/ModernDashboardQML_raw_qml_0.qrc
+--module
+DashboardApp

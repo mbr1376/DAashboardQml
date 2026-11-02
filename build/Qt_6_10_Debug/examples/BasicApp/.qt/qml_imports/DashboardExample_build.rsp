@@ -1,0 +1,16 @@
+-rootPath
+/home/client112/Documents/project/myself/qt-qml/examples/BasicApp
+-cmake-output
+-output-file
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/.qt/qml_imports/DashboardExample_build.cmake
+-importPath
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/qml
+-importPath
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/DashboardExample
+-importPath
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp
+-importPath
+/home/client112/Qt/6.10.1/gcc_64/qml
+-qrcFiles
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/.qt/rcc/qmake_DashboardExample.qrc
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/.qt/rcc/DashboardExample_raw_qml_0.qrc

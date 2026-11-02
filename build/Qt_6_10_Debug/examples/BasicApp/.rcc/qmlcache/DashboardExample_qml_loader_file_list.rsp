@@ -1,0 +1,5 @@
+--resource
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/.qt/rcc/qmake_DashboardExample.qrc
+--resource
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/.qt/rcc/DashboardExample_raw_qml_0.qrc
+/qt/qml/DashboardExample/Main.qml

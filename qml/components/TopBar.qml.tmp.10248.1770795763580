@@ -1,0 +1,127 @@
+// TopBar.qml - Header bar with breadcrumb, search, notifications, profile
+//
+// CUSTOMIZATION:
+//   - Change the breadcrumb text via the breadcrumbText property
+//   - Modify the notification count in the red badge
+//   - Change user initials in the profile circle
+
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Layouts
+import ".."
+
+Rectangle {
+    id: topBar
+    height: 70
+    color: Theme.background
+
+    // The breadcrumb text shown on the left
+    property string breadcrumbText: "Dashboard  /  Overview"
+
+    // Bottom border
+    Rectangle {
+        anchors.bottom: parent.bottom
+        width: parent.width; height: 1
+        color: Theme.border
+    }
+
+    RowLayout {
+        anchors.fill: parent
+        anchors.leftMargin: 20
+        anchors.rightMargin: 15
+        spacing: 15
+
+        // Breadcrumb
+        Text {
+            text: topBar.breadcrumbText
+            color: Theme.textSecondary
+            font { pixelSize: 14; family: Theme.fontFamily }
+        }
+
+        Item { Layout.fillWidth: true }
+
+        // Search bar
+        Rectangle {
+            Layout.preferredWidth: 220
+            Layout.preferredHeight: 36
+            radius: 20
+            color: Theme.card
+            border.color: searchField.activeFocus ? Theme.accentBlue : Theme.border
+            border.width: 1
+
+            TextInput {
+                id: searchField
+                anchors.fill: parent
+                anchors.leftMargin: 20; anchors.rightMargin: 20
+                verticalAlignment: Text.AlignVCenter
+                color: Theme.textPrimary
+                font { pixelSize: 13; family: Theme.fontFamily }
+                clip: true
+
+                Text {
+                    anchors.fill: parent
+                    verticalAlignment: Text.AlignVCenter
+                    text: "Search..."
+                    color: Theme.textSecondary
+                    font: parent.font
+                    visible: !parent.text && !parent.activeFocus
+                }
+            }
+        }
+
+        // Notification bell
+        Item {
+            width: 40; height: 40
+
+            Text {
+                anchors.centerIn: parent
+                text: "\u266A"
+                color: Theme.textSecondary
+                font { pixelSize: 18; family: Theme.fontFamily }
+            }
+
+            // Red badge
+            Rectangle {
+                x: 24; y: 2
+                width: 16; height: 16; radius: 8
+                color: Theme.accentRed
+
+                Text {
+                    anchors.centerIn: parent
+                    text: "3"
+                    color: "white"
+                    font { pixelSize: 8; bold: true; family: Theme.fontFamily }
+                }
+            }
+
+            MouseArea {
+                anchors.fill: parent
+                cursorShape: Qt.PointingHandCursor
+                hoverEnabled: true
+            }
+
+            ToolTip.text: "3 new notifications"
+        }
+
+        // Profile avatar
+        Rectangle {
+            width: 36; height: 36; radius: 18
+            color: Theme.accentBlue
+
+            Text {
+                anchors.centerIn: parent
+                text: "JD"
+                color: "white"
+                font { pixelSize: 12; bold: true; family: Theme.fontFamily }
+            }
+
+            MouseArea {
+                anchors.fill: parent
+                cursorShape: Qt.PointingHandCursor
+                hoverEnabled: true
+            }
+
+            ToolTip.text: "John Doe - Admin"
+        }
+    }
+}

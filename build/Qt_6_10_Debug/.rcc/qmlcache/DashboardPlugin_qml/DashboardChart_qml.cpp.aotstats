@@ -1,0 +1,103 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 110,
+                            "functionName": "rows",
+                            "line": 6,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 26,
+                            "durationMicroseconds": 29,
+                            "functionName": "widget",
+                            "line": 7,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 26,
+                            "functionName": "fieldNames",
+                            "line": 8,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 1563,
+                            "functionName": "chartColor",
+                            "line": 9,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 258,
+                            "functionName": "palette",
+                            "line": 11,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 65,
+                            "functionName": "onRowsChanged",
+                            "line": 176,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 38,
+                            "functionName": "onWidgetChanged",
+                            "line": 177,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 21,
+                            "durationMicroseconds": 33,
+                            "functionName": "onWidthChanged",
+                            "line": 178,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 33,
+                            "functionName": "onHeightChanged",
+                            "line": 179,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 23523,
+                            "functionName": "onPaint",
+                            "line": 20,
+                            "message": "Cannot load property length from (component in /home/client112/Documents/project/myself/qt-qml/qml/DashboardChart.qml)::rows with type QVariant."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 47,
+                            "functionName": "fill",
+                            "line": 18,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/client112/Documents/project/myself/qt-qml/qml/DashboardChart.qml"
+                }
+            ],
+            "moduleId": "Dashboard(DashboardPlugin)"
+        }
+    ]
+}

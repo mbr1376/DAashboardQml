@@ -1,0 +1,463 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-15f6d520ff594ada934d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41
+					]
+				},
+				{
+					"build" : "examples/BasicApp",
+					"jsonFile" : "directory-examples.BasicApp-Debug-0bb96800928cfb907204.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "examples/BasicApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ModernDashboardQML",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "DashboardExample",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "DashboardExample::@d8de3a446614d5b20bd8",
+					"jsonFile" : "target-DashboardExample-Debug-cc543edefc4a1fee95d6.json",
+					"name" : "DashboardExample",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DashboardExample_autogen::@d8de3a446614d5b20bd8",
+					"jsonFile" : "target-DashboardExample_autogen-Debug-768fa3e07df937dc070f.json",
+					"name" : "DashboardExample_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DashboardExample_autogen_timestamp_deps::@d8de3a446614d5b20bd8",
+					"jsonFile" : "target-DashboardExample_autogen_timestamp_deps-Debug-0016f49c5c80dd468e86.json",
+					"name" : "DashboardExample_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DashboardExample_copy_qml::@d8de3a446614d5b20bd8",
+					"jsonFile" : "target-DashboardExample_copy_qml-Debug-06a96843e9df16173876.json",
+					"name" : "DashboardExample_copy_qml",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DashboardExample_copy_res::@d8de3a446614d5b20bd8",
+					"jsonFile" : "target-DashboardExample_copy_res-Debug-e7a1a5914e3810347d70.json",
+					"name" : "DashboardExample_copy_res",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DashboardExample_qmlimportscan::@d8de3a446614d5b20bd8",
+					"jsonFile" : "target-DashboardExample_qmlimportscan-Debug-510d288d4e8294c982bb.json",
+					"name" : "DashboardExample_qmlimportscan",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DashboardExample_qmllint::@d8de3a446614d5b20bd8",
+					"jsonFile" : "target-DashboardExample_qmllint-Debug-8c8b3764e650d151c166.json",
+					"name" : "DashboardExample_qmllint",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DashboardExample_qmllint_json::@d8de3a446614d5b20bd8",
+					"jsonFile" : "target-DashboardExample_qmllint_json-Debug-f3c6b88876773f975bb1.json",
+					"name" : "DashboardExample_qmllint_json",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DashboardExample_qmllint_module::@d8de3a446614d5b20bd8",
+					"jsonFile" : "target-DashboardExample_qmllint_module-Debug-be290f1dbd75b9804967.json",
+					"name" : "DashboardExample_qmllint_module",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DashboardExample_qmltyperegistration::@d8de3a446614d5b20bd8",
+					"jsonFile" : "target-DashboardExample_qmltyperegistration-Debug-9c22a9115783bf1412ed.json",
+					"name" : "DashboardExample_qmltyperegistration",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPlugin-Debug-c6a526b50267d3ffcaef.json",
+					"name" : "DashboardPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPlugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPlugin_autogen-Debug-03e40b2bdb266f93f176.json",
+					"name" : "DashboardPlugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPlugin_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPlugin_autogen_timestamp_deps-Debug-e5acd270165dcbed5835.json",
+					"name" : "DashboardPlugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPlugin_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPlugin_copy_qml-Debug-588a0e0abd9c7019717f.json",
+					"name" : "DashboardPlugin_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPlugin_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPlugin_copy_res-Debug-747ba7f902de6105fbfe.json",
+					"name" : "DashboardPlugin_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPlugin_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPlugin_qmllint-Debug-2e6728fe19be6a42429d.json",
+					"name" : "DashboardPlugin_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPlugin_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPlugin_qmllint_json-Debug-213392d737cff5aac3d9.json",
+					"name" : "DashboardPlugin_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPlugin_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPlugin_qmllint_module-Debug-6b2847379b1a05de0946.json",
+					"name" : "DashboardPlugin_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPlugin_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPlugin_qmltyperegistration-Debug-cda68cdbfb4a4e544905.json",
+					"name" : "DashboardPlugin_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPluginplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPluginplugin-Debug-64d392e97b11af87a437.json",
+					"name" : "DashboardPluginplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPluginplugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPluginplugin_autogen-Debug-cfeab98cb29355416054.json",
+					"name" : "DashboardPluginplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DashboardPluginplugin_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DashboardPluginplugin_autogen_timestamp_deps-Debug-ca4ae9cd037bfeba5b7d.json",
+					"name" : "DashboardPluginplugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModernDashboardQML::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModernDashboardQML-Debug-f30b5a2f0c4f1e436400.json",
+					"name" : "ModernDashboardQML",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModernDashboardQML_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModernDashboardQML_autogen-Debug-0893bd45b2b61be11f08.json",
+					"name" : "ModernDashboardQML_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModernDashboardQML_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModernDashboardQML_autogen_timestamp_deps-Debug-74e53af02ada8f561daa.json",
+					"name" : "ModernDashboardQML_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModernDashboardQML_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModernDashboardQML_copy_qml-Debug-c8bf4488773dce36f2ff.json",
+					"name" : "ModernDashboardQML_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModernDashboardQML_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModernDashboardQML_copy_res-Debug-3abfdd308930c51c7d74.json",
+					"name" : "ModernDashboardQML_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModernDashboardQML_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModernDashboardQML_qmlimportscan-Debug-64de06a36051681b8da3.json",
+					"name" : "ModernDashboardQML_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModernDashboardQML_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModernDashboardQML_qmllint-Debug-e4d5648d269fe774c99b.json",
+					"name" : "ModernDashboardQML_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModernDashboardQML_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModernDashboardQML_qmllint_json-Debug-729543dce59f161ff72a.json",
+					"name" : "ModernDashboardQML_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModernDashboardQML_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModernDashboardQML_qmllint_module-Debug-b7f7a08c3217035f43f5.json",
+					"name" : "ModernDashboardQML_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModernDashboardQML_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModernDashboardQML_qmltyperegistration-Debug-a8c348ae524d4cc9cf88.json",
+					"name" : "ModernDashboardQML_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-ffb1d01b6a716c63b03c.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-4b4b316167575b54b491.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-38778e2012f337e6c86f.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-ef8321ce075a10fb3f65.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6ac1d77774c544c73d1a.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-4d31c658998923823fca.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_DashboardExample_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_DashboardExample_aotstats_target-Debug-e2556e8dbb52e4506533.json",
+					"name" : "module_DashboardExample_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_DashboardPlugin_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_DashboardPlugin_aotstats_target-Debug-729db5cf0bc2a6ac9670.json",
+					"name" : "module_DashboardPlugin_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_ModernDashboardQML_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_ModernDashboardQML_aotstats_target-Debug-efd0369b59cd2461d0d7.json",
+					"name" : "module_ModernDashboardQML_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-5709ce5ab22d598fe15e.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug",
+		"source" : "/home/client112/Documents/project/myself/qt-qml"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,6 @@
+module DashboardExample
+typeinfo DashboardExample.qmltypes
+prefer :/qt/qml/DashboardExample/
+Main 1.0 Main.qml
+depends QtQuick
+

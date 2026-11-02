@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="/qt/qml/Dashboard/">
+    <file alias="DashboardView.qml">/home/client112/Documents/project/myself/qt-qml/qml/DashboardView.qml</file>
+    <file alias="DashboardBuilder.qml">/home/client112/Documents/project/myself/qt-qml/qml/DashboardBuilder.qml</file>
+    <file alias="DashboardWidget.qml">/home/client112/Documents/project/myself/qt-qml/qml/DashboardWidget.qml</file>
+    <file alias="DashboardChart.qml">/home/client112/Documents/project/myself/qt-qml/qml/DashboardChart.qml</file>
+    <file alias="Theme.qml">/home/client112/Documents/project/myself/qt-qml/qml/Theme.qml</file>
+    <file alias="Sidebar.qml">/home/client112/Documents/project/myself/qt-qml/qml/components/Sidebar.qml</file>
+    <file alias="TopBar.qml">/home/client112/Documents/project/myself/qt-qml/qml/components/TopBar.qml</file>
+    <file alias="StatCard.qml">/home/client112/Documents/project/myself/qt-qml/qml/components/StatCard.qml</file>
+    <file alias="DataTable.qml">/home/client112/Documents/project/myself/qt-qml/qml/components/DataTable.qml</file>
+    <file alias="DashboardPage.qml">/home/client112/Documents/project/myself/qt-qml/qml/pages/DashboardPage.qml</file>
+    <file alias="AnalyticsPage.qml">/home/client112/Documents/project/myself/qt-qml/qml/pages/AnalyticsPage.qml</file>
+    <file alias="ReportsPage.qml">/home/client112/Documents/project/myself/qt-qml/qml/pages/ReportsPage.qml</file>
+    <file alias="UsersPage.qml">/home/client112/Documents/project/myself/qt-qml/qml/pages/UsersPage.qml</file>
+  </qresource>
+</RCC>
+
