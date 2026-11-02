@@ -5,7 +5,11 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Quick QuickControls2)
+find_package(Qt6 REQUIRED COMPONENTS Qml Quick QuickControls2)
+
+if(NOT TARGET Dashboard::DashboardPlugin)
+    find_package(Dashboard 1.0 CONFIG REQUIRED)
+endif()
 
 if(COMMAND qt_policy)
     qt_policy(SET QTP0001 NEW)
@@ -40,6 +44,7 @@ target_compile_definitions(DashboardExample PRIVATE
     DASHBOARD_QML_IMPORT_PATH="${DASHBOARD_QML_IMPORT_PATH}"
 )
 target_link_libraries(DashboardExample PRIVATE
+    Dashboard::DashboardPlugin
     Qt6::Quick
     Qt6::QuickControls2
 )

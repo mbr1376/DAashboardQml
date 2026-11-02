@@ -9,6 +9,7 @@ DashboardPluginplugin_autogen/timestamp: \
 	/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardPluginplugin_DashboardPlugin.cpp \
 	/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardPluginplugin_DashboardPlugin_in.cpp \
 	/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardPluginplugin_autogen/moc_predefs.h \
+	/home/client112/Documents/project/myself/qt-qml/cmake/DashboardConfig.cmake.in \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QUrl \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q17memory.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q20algorithm.h \
@@ -1325,6 +1326,7 @@ DashboardPluginplugin_autogen/timestamp: \
 	/usr/lib/gcc/x86_64-redhat-linux/11/include/stddef.h \
 	/usr/lib/gcc/x86_64-redhat-linux/11/include/stdint.h \
 	/usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h \
+	/usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in \
 	/usr/share/cmake/Modules/CMakeCXXInformation.cmake \
 	/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
@@ -1332,6 +1334,7 @@ DashboardPluginplugin_autogen/timestamp: \
 	/usr/share/cmake/Modules/CMakeGenericSystem.cmake \
 	/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake \
 	/usr/share/cmake/Modules/CMakeLanguageInformation.cmake \
+	/usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake \
 	/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
 	/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
 	/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
@@ -1363,4 +1366,5 @@ DashboardPluginplugin_autogen/timestamp: \
 	/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake/Modules/Platform/Linux.cmake \
 	/usr/share/cmake/Modules/Platform/UnixPaths.cmake \
+	/usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake \
 	/usr/bin/cmake

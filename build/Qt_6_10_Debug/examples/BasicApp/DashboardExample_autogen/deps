@@ -5,7 +5,16 @@ DashboardExample_autogen/timestamp: \
 	/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/DashboardExample_autogen/moc_predefs.h \
 	/home/client112/Documents/project/myself/qt-qml/examples/BasicApp/CMakeLists.txt \
 	/home/client112/Documents/project/myself/qt-qml/examples/BasicApp/src/main.cpp \
+	/home/client112/Documents/project/myself/qt-qml/src/dashboard/dashboarddatamodel.h \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QAbstractListModel \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QList \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QMap \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QMetaType \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QSettings \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QString \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariant \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariantList \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariantMap \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q17memory.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q20functional.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q20iterator.h \
@@ -15,6 +24,7 @@ DashboardExample_autogen/timestamp: \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q23type_traits.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q23utility.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qabstracteventdispatcher.h \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qabstractitemmodel.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qalgorithms.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qalloc.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qanystringview.h \
@@ -143,6 +153,8 @@ DashboardExample_autogen/timestamp: \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qurl.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qutf8stringview.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariant.h \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariantlist.h \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariantmap.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvarlengtharray.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qversionnumber.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qversiontagging.h \
@@ -226,7 +238,20 @@ DashboardExample_autogen/timestamp: \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlAdditionalTargetInfo.cmake \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlConfigExtras.cmake \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlConfigVersion.cmake \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlConfigVersionImpl.cmake \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlFindQmlscInternal.cmake \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlPlugins.cmake \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlProperties.cmake \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlPublicCMakeHelpers.cmake \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake \
+	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlVersionlessAliasTargets.cmake \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QmlTools/Qt6QmlToolsAdditionalTargetInfo.cmake \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QmlTools/Qt6QmlToolsConfig.cmake \
@@ -533,4 +558,5 @@ DashboardExample_autogen/timestamp: \
 	/usr/lib/gcc/x86_64-redhat-linux/11/include/stddef.h \
 	/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
 	/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+	/usr/share/cmake/Modules/GNUInstallDirs.cmake \
 	/usr/bin/cmake

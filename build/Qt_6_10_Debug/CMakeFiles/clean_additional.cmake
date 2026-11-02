@@ -15,5 +15,11 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   "examples/BasicApp/CMakeFiles/DashboardExample_autogen.dir/AutogenUsed.txt"
   "examples/BasicApp/CMakeFiles/DashboardExample_autogen.dir/ParseCache.txt"
   "examples/BasicApp/DashboardExample_autogen"
+  "examples/JsonApp/CMakeFiles/DashboardJsonExample_autogen.dir/AutogenUsed.txt"
+  "examples/JsonApp/CMakeFiles/DashboardJsonExample_autogen.dir/ParseCache.txt"
+  "examples/JsonApp/DashboardJsonExample_autogen"
+  "examples/RestApiApp/CMakeFiles/DashboardRestApiExample_autogen.dir/AutogenUsed.txt"
+  "examples/RestApiApp/CMakeFiles/DashboardRestApiExample_autogen.dir/ParseCache.txt"
+  "examples/RestApiApp/DashboardRestApiExample_autogen"
   )
 endif()

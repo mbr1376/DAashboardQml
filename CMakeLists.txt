@@ -5,8 +5,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Quick QuickControls2 QuickDialogs2 Network)
+find_package(Qt6 REQUIRED COMPONENTS Qml Quick QuickControls2 QuickDialogs2 Network)
 include(GNUInstallDirs)
+include(CMakePackageConfigHelpers)
 
 if(COMMAND qt_policy)
     qt_policy(SET QTP0001 NEW)
@@ -15,6 +16,7 @@ endif()
 set(DASHBOARD_QML_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/qml/Dashboard")
 
 qt_add_library(DashboardPlugin SHARED)
+add_library(Dashboard::DashboardPlugin ALIAS DashboardPlugin)
 
 set_source_files_properties(qml/Theme.qml PROPERTIES
     QT_RESOURCE_ALIAS Theme.qml
@@ -38,6 +40,8 @@ qt_add_qml_module(DashboardPlugin
     VERSION 1.0
     OUTPUT_DIRECTORY "${DASHBOARD_QML_BUILD_DIR}"
     SOURCES
+        src/dashboard/dashboarddatamodel.h
+        src/dashboarddatamodel.cpp
         src/dashboarddatasource.h
         src/dashboarddatasource.cpp
         src/chartmodels/linechartitem.h
@@ -71,10 +75,21 @@ target_link_libraries(DashboardPlugin PRIVATE
     Qt6::QuickDialogs2
     Qt6::Network
 )
-target_include_directories(DashboardPlugin PRIVATE src src/chartmodels)
+target_link_libraries(DashboardPlugin PUBLIC Qt6::Qml)
+target_compile_definitions(DashboardPlugin PRIVATE DASHBOARDPLUGIN_LIBRARY)
+target_include_directories(DashboardPlugin
+    PUBLIC
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src>
+        $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
+    PRIVATE
+        src/dashboard
+        src/chartmodels
+)
 
 set(DASHBOARD_QML_IMPORT_PATH "${CMAKE_CURRENT_BINARY_DIR}/qml")
 add_subdirectory(examples/BasicApp)
+add_subdirectory(examples/JsonApp)
+add_subdirectory(examples/RestApiApp)
 
 qt_add_executable(ModernDashboardQML src/main.cpp)
 set_target_properties(ModernDashboardQML PROPERTIES
@@ -104,10 +119,15 @@ elseif(APPLE)
     set_target_properties(DashboardPluginplugin PROPERTIES INSTALL_RPATH "@loader_path")
 endif()
 
-install(TARGETS DashboardPlugin DashboardPluginplugin
+install(TARGETS DashboardPlugin
+    EXPORT DashboardTargets
     LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}/qt6/qml/Dashboard"
     RUNTIME DESTINATION "${CMAKE_INSTALL_LIBDIR}/qt6/qml/Dashboard"
     ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}/qt6/qml/Dashboard"
+)
+install(TARGETS DashboardPluginplugin
+    LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}/qt6/qml/Dashboard"
+    RUNTIME DESTINATION "${CMAKE_INSTALL_LIBDIR}/qt6/qml/Dashboard"
 )
 install(FILES "${DASHBOARD_QML_BUILD_DIR}/qmldir"
     DESTINATION "${CMAKE_INSTALL_LIBDIR}/qt6/qml/Dashboard"
@@ -130,6 +150,30 @@ install(FILES
     qml/pages/ReportsPage.qml
     qml/pages/UsersPage.qml
     DESTINATION "${CMAKE_INSTALL_LIBDIR}/qt6/qml/Dashboard"
+)
+install(FILES src/dashboard/dashboarddatamodel.h
+    DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}/dashboard"
+)
+
+configure_package_config_file(
+    cmake/DashboardConfig.cmake.in
+    "${CMAKE_CURRENT_BINARY_DIR}/DashboardConfig.cmake"
+    INSTALL_DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/Dashboard"
+)
+write_basic_package_version_file(
+    "${CMAKE_CURRENT_BINARY_DIR}/DashboardConfigVersion.cmake"
+    VERSION "${PROJECT_VERSION}"
+    COMPATIBILITY SameMajorVersion
+)
+install(EXPORT DashboardTargets
+    FILE DashboardTargets.cmake
+    NAMESPACE Dashboard::
+    DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/Dashboard"
+)
+install(FILES
+    "${CMAKE_CURRENT_BINARY_DIR}/DashboardConfig.cmake"
+    "${CMAKE_CURRENT_BINARY_DIR}/DashboardConfigVersion.cmake"
+    DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/Dashboard"
 )
 
 if(WIN32)

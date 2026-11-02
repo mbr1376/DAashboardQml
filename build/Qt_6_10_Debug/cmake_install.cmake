@@ -47,6 +47,16 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/JsonApp/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/RestApiApp/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/qt6/qml/Dashboard/libDashboardPlugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/qt6/qml/Dashboard/libDashboardPlugin.so")
@@ -113,6 +123,40 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/client112/Documents/project/myself/qt-qml/qml/pages/AnalyticsPage.qml"
     "/home/client112/Documents/project/myself/qt-qml/qml/pages/ReportsPage.qml"
     "/home/client112/Documents/project/myself/qt-qml/qml/pages/UsersPage.qml"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dashboard" TYPE FILE FILES "/home/client112/Documents/project/myself/qt-qml/src/dashboard/dashboarddatamodel.h")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/Dashboard/DashboardTargets.cmake")
+    file(DIFFERENT _cmake_export_file_changed FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/Dashboard/DashboardTargets.cmake"
+         "/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/CMakeFiles/Export/b2bff9e59267cf51a20876eae37f3d64/DashboardTargets.cmake")
+    if(_cmake_export_file_changed)
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/Dashboard/DashboardTargets-*.cmake")
+      if(_cmake_old_config_files)
+        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/Dashboard/DashboardTargets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        unset(_cmake_old_config_files_text)
+        file(REMOVE ${_cmake_old_config_files})
+      endif()
+      unset(_cmake_old_config_files)
+    endif()
+    unset(_cmake_export_file_changed)
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/Dashboard" TYPE FILE FILES "/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/CMakeFiles/Export/b2bff9e59267cf51a20876eae37f3d64/DashboardTargets.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/Dashboard" TYPE FILE FILES "/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/CMakeFiles/Export/b2bff9e59267cf51a20876eae37f3d64/DashboardTargets-debug.cmake")
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/Dashboard" TYPE FILE FILES
+    "/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardConfig.cmake"
+    "/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardConfigVersion.cmake"
     )
 endif()
 

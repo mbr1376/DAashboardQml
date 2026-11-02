@@ -115,8 +115,56 @@ Call `setLayout(layout)` to restore the saved layout. Each layout entry has
 The host owns persistence: **Save layout** emits `saveLayoutRequested`, while
 `layoutChanged` reports edits as they happen.
 
-`examples/BasicApp` is a working host example. It passes a QML `ListModel` into
-the module and persists layouts with `QSettings`.
+### Fill the dashboard from C++
+
+`DashboardDataModel` is the public `QAbstractListModel` for providing data from
+the host application's C++ code. Pass it to `DashboardView` through its
+`dataModel` property:
+
+```cpp
+#include <dashboard/dashboarddatamodel.h>
+
+DashboardDataModel data;
+data.setRows({
+    {{QStringLiteral("month"), QStringLiteral("Jan")},
+     {QStringLiteral("sales"), 120}},
+    {{QStringLiteral("month"), QStringLiteral("Feb")},
+     {QStringLiteral("sales"), 185}}
+});
+
+engine.rootContext()->setContextProperty(QStringLiteral("dashboardModel"), &data);
+```
+
+```qml
+DashboardView {
+    dataModel: dashboardModel
+}
+```
+
+Updates are reflected in the dashboard, Analytics, and Reports pages:
+
+```cpp
+data.appendRow({{QStringLiteral("month"), QStringLiteral("Mar")},
+                {QStringLiteral("sales"), 210}});
+data.updateRow(0, {{QStringLiteral("sales"), 135}});
+data.removeRow(1);
+```
+
+The model also provides `setRows()`, `rowAt()`, and `clear()`. To use it from a
+separately built CMake application, install the module and link its exported
+target:
+
+```cmake
+find_package(Dashboard 1.0 CONFIG REQUIRED)
+target_link_libraries(MyApp PRIVATE Dashboard::DashboardPlugin)
+```
+
+Set `CMAKE_PREFIX_PATH` to the install prefix and add
+`<prefix>/<libdir>/qt6/qml` to the application's QML import path.
+`examples/BasicApp` demonstrates the public C++ `DashboardDataModel` API and
+`QSettings` layout persistence. `examples/JsonApp` loads editable JSON text, and
+`examples/RestApiApp` fetches JSON from a REST endpoint with an optional bearer
+token.
 
 ### Run the example consumer application
 
@@ -126,7 +174,8 @@ shown above, then configure, build, and run the example:
 
 ```bash
 cmake -S examples/BasicApp -B build/basic-example \
-  -DDASHBOARD_QML_IMPORT_PATH="$HOME/.local/lib/qt6/qml"
+  -DCMAKE_PREFIX_PATH="$HOME/.local" \
+  -DDASHBOARD_QML_IMPORT_PATH="$HOME/.local/lib64/qt6/qml"
 cmake --build build/basic-example
 ./build/basic-example/bin/DashboardExample
 ```
@@ -144,6 +193,20 @@ cmake -S . -B build
 cmake --build build --target DashboardExample
 ./build/examples/BasicApp/bin/DashboardExample
 ```
+
+The main project also builds all three example applications:
+
+```bash
+cmake --build build --target DashboardJsonExample DashboardRestApiExample
+./build/examples/JsonApp/bin/DashboardJsonExample
+./build/examples/RestApiApp/bin/DashboardRestApiExample
+```
+
+In the JSON example, edit the sample array and click **Load JSON**. Rows must be
+objects; a top-level array or an object containing a `data` or `rows` array is
+accepted. The REST example starts with a public posts endpoint; replace it with
+an HTTP(S) URL returning one of those JSON shapes. The optional token is sent
+as an `Authorization: Bearer ...` header and is not saved by the example.
 
 ### Option 1: Using Qt Creator (Recommended for QML)
 

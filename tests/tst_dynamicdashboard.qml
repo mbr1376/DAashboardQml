@@ -9,6 +9,10 @@ TestCase {
         id: source
     }
 
+    DashboardDataModel {
+        id: cppModel
+    }
+
     ListModel {
         id: hostModel
         ListElement { category: "Online"; sales: 120 }
@@ -93,6 +97,29 @@ TestCase {
         compare(source.rows[0].category, "Online");
         hostModel.append({ category: "Partner", sales: 50 });
         tryCompare(source.rows, "length", 3);
+    }
+
+    function test_dashboardDataModelCppApi() {
+        verify(cppModel.setRows([
+            { category: "Online", sales: 120 },
+            { category: "Retail", sales: 80 }
+        ]));
+        compare(cppModel.count, 2);
+        compare(cppModel.rowAt(0).category, "Online");
+
+        var appended = cppModel.appendRow({ category: "Partner", sales: 50 });
+        compare(appended, 2);
+        compare(cppModel.count, 3);
+
+        verify(cppModel.updateRow(0, { sales: 150 }));
+        compare(cppModel.rowAt(0).sales, 150);
+        verify(cppModel.removeRow(1));
+        compare(cppModel.count, 2);
+        verify(!cppModel.removeRow(8));
+
+        verify(cppModel.updateRow(0, { margin: 0.25 }));
+        compare(cppModel.rowAt(0).margin, 0.25);
+        compare(cppModel.rowAt(0).category, "Online");
     }
 
     function test_dashboardLayoutCanBeRestored() {

@@ -8,49 +8,49 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 649,
+                            "durationMicroseconds": 1707,
                             "functionName": "color",
                             "line": 11,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
+                            "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 238,
                             "functionName": "dataModel",
-                            "line": 27,
-                            "message": ""
+                            "line": 16,
+                            "message": "Cannot access value for name dashboardModel"
                         },
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 94,
+                            "durationMicroseconds": 172,
                             "functionName": "onSaveLayoutRequested",
-                            "line": 29,
+                            "line": 18,
                             "message": "Cannot access value for name appSettings"
                         },
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 18,
+                            "durationMicroseconds": 73,
                             "functionName": "onSaveLayoutRequested",
-                            "line": 29,
+                            "line": 18,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 22,
+                            "durationMicroseconds": 72,
                             "functionName": "fill",
-                            "line": 26,
+                            "line": 15,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 150,
+                            "durationMicroseconds": 357,
                             "functionName": "onCompleted",
-                            "line": 33,
+                            "line": 22,
                             "message": "Cannot access value for name appSettings"
                         }
                     ],

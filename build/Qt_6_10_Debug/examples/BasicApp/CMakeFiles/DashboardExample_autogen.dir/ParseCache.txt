@@ -4,7 +4,16 @@
  mid:main.moc
  mdp:/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/DashboardExample_autogen/moc_predefs.h
  mdp:/home/client112/Documents/project/myself/qt-qml/examples/BasicApp/src/main.cpp
+ mdp:/home/client112/Documents/project/myself/qt-qml/src/dashboard/dashboarddatamodel.h
+ mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QAbstractListModel
+ mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QList
+ mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QMap
+ mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QMetaType
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QSettings
+ mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QString
+ mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariant
+ mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariantList
+ mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariantMap
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q17memory.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q20functional.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q20iterator.h
@@ -14,6 +23,7 @@
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q23type_traits.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q23utility.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qabstracteventdispatcher.h
+ mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qabstractitemmodel.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qalgorithms.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qalloc.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qanystringview.h
@@ -142,6 +152,8 @@
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qurl.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qutf8stringview.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariant.h
+ mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariantlist.h
+ mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariantmap.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvarlengtharray.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qversionnumber.h
  mdp:/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qversiontagging.h

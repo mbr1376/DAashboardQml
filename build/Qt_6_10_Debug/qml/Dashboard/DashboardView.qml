@@ -13,6 +13,7 @@ Item {
     implicitHeight: 900
 
     property var dataModel: null
+    readonly property bool loading: dataSource.loading
     property var dashboardLayout: [
         { id: "sales-line", title: "Sales by category", type: "line",
           x: 0, y: 0, w: 6, h: 3, xField: "category", yField: "sales" },

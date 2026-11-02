@@ -280,6 +280,24 @@ DashboardExample_IS_TOP_LEVEL:STATIC=OFF
 DashboardExample_SOURCE_DIR:STATIC=/home/client112/Documents/project/myself/qt-qml/examples/BasicApp
 
 //Value Computed by CMake
+DashboardJsonExample_BINARY_DIR:STATIC=/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/JsonApp
+
+//Value Computed by CMake
+DashboardJsonExample_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+DashboardJsonExample_SOURCE_DIR:STATIC=/home/client112/Documents/project/myself/qt-qml/examples/JsonApp
+
+//Value Computed by CMake
+DashboardRestApiExample_BINARY_DIR:STATIC=/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/RestApiApp
+
+//Value Computed by CMake
+DashboardRestApiExample_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+DashboardRestApiExample_SOURCE_DIR:STATIC=/home/client112/Documents/project/myself/qt-qml/examples/RestApiApp
+
+//Value Computed by CMake
 ModernDashboardQML_BINARY_DIR:STATIC=/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug
 
 //Value Computed by CMake
@@ -561,7 +579,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

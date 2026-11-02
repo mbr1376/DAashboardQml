@@ -7,6 +7,7 @@ ModernDashboardQML_autogen/timestamp: \
 	/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/CMakeFiles/3.31.8/CMakeCXXCompiler.cmake \
 	/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/CMakeFiles/3.31.8/CMakeSystem.cmake \
 	/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardPluginplugin_DashboardPlugin_in.cpp \
+	/home/client112/Documents/project/myself/qt-qml/cmake/DashboardConfig.cmake.in \
 	/home/client112/Documents/project/myself/qt-qml/src/main.cpp \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
@@ -925,6 +926,7 @@ ModernDashboardQML_autogen/timestamp: \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
 	/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
+	/usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in \
 	/usr/share/cmake/Modules/CMakeCXXInformation.cmake \
 	/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
@@ -932,6 +934,7 @@ ModernDashboardQML_autogen/timestamp: \
 	/usr/share/cmake/Modules/CMakeGenericSystem.cmake \
 	/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake \
 	/usr/share/cmake/Modules/CMakeLanguageInformation.cmake \
+	/usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake \
 	/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
 	/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
 	/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
@@ -963,4 +966,5 @@ ModernDashboardQML_autogen/timestamp: \
 	/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake/Modules/Platform/Linux.cmake \
 	/usr/share/cmake/Modules/Platform/UnixPaths.cmake \
+	/usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake \
 	/usr/bin/cmake

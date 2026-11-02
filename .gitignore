@@ -1,0 +1,24 @@
+# CMake build output
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Makefile
+
+# Qt Creator and Qt-generated files
+*.user
+*.qmlc
+*.jsc
+.qtc_clangd/
+
+# Compiled artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe

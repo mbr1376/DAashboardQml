@@ -403,8 +403,20 @@ Qt6QmlWorkerScript_DIR:PATH=/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QmlWor
 //The directory containing a CMake configuration file for Qt6Qml.
 Qt6Qml_DIR:PATH=/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml
 
+//The directory containing a CMake configuration file for Qt6QuickControls2Impl.
+Qt6QuickControls2Impl_DIR:PATH=/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QuickControls2Impl
+
 //The directory containing a CMake configuration file for Qt6QuickControls2.
 Qt6QuickControls2_DIR:PATH=/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QuickControls2
+
+//The directory containing a CMake configuration file for Qt6QuickDialogs2QuickImpl.
+Qt6QuickDialogs2QuickImpl_DIR:PATH=/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QuickDialogs2QuickImpl
+
+//The directory containing a CMake configuration file for Qt6QuickDialogs2Utils.
+Qt6QuickDialogs2Utils_DIR:PATH=/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QuickDialogs2Utils
+
+//The directory containing a CMake configuration file for Qt6QuickDialogs2.
+Qt6QuickDialogs2_DIR:PATH=/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QuickDialogs2
 
 //The directory containing a CMake configuration file for Qt6QuickTemplates2.
 Qt6QuickTemplates2_DIR:PATH=/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6QuickTemplates2
@@ -1467,6 +1479,6 @@ Vulkan_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Vulkan_LIBRARY
 Vulkan_LIBRARY-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/tmp
 __qt_qml_macros_module_base_dir:INTERNAL=/home/client112/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml
 

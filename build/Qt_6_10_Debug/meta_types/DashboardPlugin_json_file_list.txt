@@ -1,3 +1,4 @@
 /home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardPlugin_autogen/include/../MUSE4TRAQP/moc_donuttchartitem.cpp.json
 /home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardPlugin_autogen/include/../MUSE4TRAQP/moc_linechartitem.cpp.json
+/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardPlugin_autogen/include/../TBGBFLAEGA/moc_dashboarddatamodel.cpp.json
 /home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardPlugin_autogen/include/../UVLADIE3JM/moc_dashboarddatasource.cpp.json

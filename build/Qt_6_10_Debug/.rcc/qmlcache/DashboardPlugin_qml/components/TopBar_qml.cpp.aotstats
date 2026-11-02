@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 1676,
+                            "durationMicroseconds": 3227,
                             "functionName": "color",
                             "line": 19,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 72,
                             "functionName": "width",
                             "line": 27,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 86,
                             "functionName": "color",
                             "line": 28,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 40,
+                            "durationMicroseconds": 59,
                             "functionName": "bottom",
                             "line": 26,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 28,
+                            "durationMicroseconds": 37,
                             "functionName": "fill",
                             "line": 32,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 32,
+                            "durationMicroseconds": 56,
                             "functionName": "text",
                             "line": 41,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 42,
+                            "durationMicroseconds": 59,
                             "functionName": "color",
                             "line": 42,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 43,
-                            "durationMicroseconds": 29,
+                            "durationMicroseconds": 46,
                             "functionName": "family",
                             "line": 43,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 40,
+                            "durationMicroseconds": 57,
                             "functionName": "color",
                             "line": 54,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 135,
+                            "durationMicroseconds": 173,
                             "functionName": "color",
                             "line": 55,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 37,
+                            "durationMicroseconds": 47,
                             "functionName": "verticalAlignment",
                             "line": 63,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 40,
+                            "durationMicroseconds": 51,
                             "functionName": "color",
                             "line": 64,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 26,
+                            "durationMicroseconds": 34,
                             "functionName": "fill",
                             "line": 60,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 30,
+                            "durationMicroseconds": 40,
                             "functionName": "family",
                             "line": 65,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 40,
-                            "durationMicroseconds": 37,
+                            "durationMicroseconds": 50,
                             "functionName": "verticalAlignment",
                             "line": 71,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 41,
+                            "durationMicroseconds": 54,
                             "functionName": "color",
                             "line": 73,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 46,
+                            "durationMicroseconds": 59,
                             "functionName": "font",
                             "line": 74,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 168,
+                            "durationMicroseconds": 156,
                             "functionName": "visible",
                             "line": 75,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 35,
+                            "durationMicroseconds": 38,
                             "functionName": "fill",
                             "line": 70,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 1127,
+                            "durationMicroseconds": 893,
                             "functionName": "onPaint",
                             "line": 89,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 37,
                             "functionName": "fill",
                             "line": 88,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 80,
+                            "durationMicroseconds": 54,
                             "functionName": "cursorShape",
                             "line": 117,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 34,
+                            "durationMicroseconds": 30,
                             "functionName": "fill",
                             "line": 116,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 69,
+                            "durationMicroseconds": 49,
                             "functionName": "color",
                             "line": 129,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 23,
                             "functionName": "centerIn",
                             "line": 132,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 59,
-                            "durationMicroseconds": 50,
+                            "durationMicroseconds": 32,
                             "functionName": "family",
                             "line": 135,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 35,
                             "functionName": "cursorShape",
                             "line": 140,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 36,
+                            "durationMicroseconds": 21,
                             "functionName": "fill",
                             "line": 139,
                             "message": ""

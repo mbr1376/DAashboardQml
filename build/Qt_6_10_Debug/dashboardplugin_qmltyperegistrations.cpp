@@ -7,6 +7,9 @@
 #include <QtQml/qqml.h>
 #include <QtQml/qqmlmoduleregistration.h>
 
+#if __has_include(<dashboarddatamodel.h>)
+#  include <dashboarddatamodel.h>
+#endif
 #if __has_include(<dashboarddatasource.h>)
 #  include <dashboarddatasource.h>
 #endif
@@ -26,10 +29,15 @@
 Q_QMLTYPE_EXPORT void qml_register_types_Dashboard()
 {
     QT_WARNING_PUSH QT_WARNING_DISABLE_DEPRECATED
+    qmlRegisterTypesAndRevisions<DashboardDataModel>("Dashboard", 1);
     qmlRegisterTypesAndRevisions<DashboardDataSource>("Dashboard", 1);
     qmlRegisterTypesAndRevisions<DonutChartItem>("Dashboard", 1);
     qmlRegisterAnonymousType<QQuickItem, 254>("Dashboard", 1);
     qmlRegisterTypesAndRevisions<LineChartItem>("Dashboard", 1);
+    QMetaType::fromType<QAbstractItemModel *>().id();
+    qmlRegisterEnum<QAbstractItemModel::LayoutChangeHint>("QAbstractItemModel::LayoutChangeHint");
+    qmlRegisterEnum<QAbstractItemModel::CheckIndexOption>("QAbstractItemModel::CheckIndexOption");
+    QMetaType::fromType<QAbstractListModel *>().id();
     QT_WARNING_POP
     qmlRegisterModule("Dashboard", 1, 0);
 }

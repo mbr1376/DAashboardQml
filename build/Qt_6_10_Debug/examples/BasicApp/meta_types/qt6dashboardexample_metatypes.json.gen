@@ -3,7 +3,7 @@
         "classes": [
             {
                 "className": "DashboardExampleSettings",
-                "lineNumber": 7,
+                "lineNumber": 8,
                 "methods": [
                     {
                         "access": "public",
@@ -14,7 +14,7 @@
                             }
                         ],
                         "index": 0,
-                        "lineNumber": 23,
+                        "lineNumber": 24,
                         "name": "saveLayout",
                         "returnType": "void"
                     }
@@ -26,7 +26,7 @@
                         "designable": true,
                         "final": false,
                         "index": 0,
-                        "lineNumber": 10,
+                        "lineNumber": 11,
                         "name": "savedLayout",
                         "read": "savedLayout",
                         "required": false,
@@ -40,7 +40,7 @@
                         "designable": true,
                         "final": false,
                         "index": 1,
-                        "lineNumber": 11,
+                        "lineNumber": 12,
                         "name": "hasSavedLayout",
                         "read": "hasSavedLayout",
                         "required": false,

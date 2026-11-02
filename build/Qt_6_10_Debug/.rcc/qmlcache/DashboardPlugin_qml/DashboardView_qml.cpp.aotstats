@@ -6,27 +6,35 @@
                 {
                     "entries": [
                         {
+                            "codegenResult": 0,
+                            "column": 37,
+                            "durationMicroseconds": 118,
+                            "functionName": "loading",
+                            "line": 16,
+                            "message": ""
+                        },
+                        {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 624,
+                            "durationMicroseconds": 653,
                             "functionName": "dashboardLayout",
-                            "line": 16,
+                            "line": 17,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
                             "codegenResult": 2,
                             "column": 38,
-                            "durationMicroseconds": 78,
+                            "durationMicroseconds": 81,
                             "functionName": "pageNames",
-                            "line": 27,
+                            "line": 28,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 46,
+                            "durationMicroseconds": 40,
                             "functionName": "dataRows",
-                            "line": 34,
+                            "line": 35,
                             "message": ""
                         },
                         {
@@ -34,7 +42,7 @@
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "setData",
-                            "line": 42,
+                            "line": 43,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
@@ -42,7 +50,7 @@
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "setDataModel",
-                            "line": 46,
+                            "line": 47,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
@@ -50,7 +58,7 @@
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "loadJson",
-                            "line": 53,
+                            "line": 54,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
@@ -58,7 +66,7 @@
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "loadCsv",
-                            "line": 57,
+                            "line": 58,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
@@ -66,7 +74,7 @@
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "loadFile",
-                            "line": 61,
+                            "line": 62,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
@@ -74,7 +82,7 @@
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "loadRest",
-                            "line": 65,
+                            "line": 66,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
@@ -82,143 +90,79 @@
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "setLayout",
-                            "line": 69,
+                            "line": 70,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 60,
+                            "durationMicroseconds": 66,
                             "functionName": "onDataModelChanged",
-                            "line": 86,
+                            "line": 87,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 168,
+                            "durationMicroseconds": 184,
                             "functionName": "onDashboardLayoutChanged",
-                            "line": 88,
+                            "line": 89,
                             "message": "Cannot generate efficient code for incomparable types (component in /home/client112/Documents/project/myself/qt-qml/qml/DashboardView.qml)::dashboardLayout with type QVariant and DashboardBuilder::widgets with type QVariant"
                         },
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 163,
+                            "durationMicroseconds": 178,
                             "functionName": "onErrorMessageChanged",
-                            "line": 80,
+                            "line": 81,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 693,
+                            "durationMicroseconds": 767,
                             "functionName": "onCompleted",
-                            "line": 93,
+                            "line": 94,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 689,
+                            "durationMicroseconds": 865,
                             "functionName": "color",
+                            "line": 109,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 25,
+                            "functionName": "fill",
                             "line": 108,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 23,
+                            "durationMicroseconds": 20,
                             "functionName": "fill",
-                            "line": 107,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 23,
-                            "durationMicroseconds": 19,
-                            "functionName": "fill",
-                            "line": 112,
+                            "line": 113,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 63,
+                            "durationMicroseconds": 75,
                             "functionName": "onNavigationChanged",
-                            "line": 119,
+                            "line": 120,
                             "message": "Cannot load property length from (component in /home/client112/Documents/project/myself/qt-qml/qml/DashboardView.qml)::pageNames with type QVariant."
                         },
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 16,
+                            "durationMicroseconds": 18,
                             "functionName": "onNavigationChanged",
-                            "line": 119,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 27,
-                            "durationMicroseconds": 32,
-                            "functionName": "rows",
-                            "line": 147,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 29,
-                            "durationMicroseconds": 23,
-                            "functionName": "source",
-                            "line": 148,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 30,
-                            "durationMicroseconds": 30,
-                            "functionName": "widgets",
-                            "line": 149,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 80,
-                            "functionName": "onLayoutChanged",
-                            "line": 151,
-                            "message": "Cannot generate efficient code for calling method with argument affected by side effects"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 38,
-                            "durationMicroseconds": 15,
-                            "functionName": "onLayoutChanged",
-                            "line": 151,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 38,
-                            "durationMicroseconds": 45,
-                            "functionName": "onSaveRequested",
-                            "line": 155,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 38,
-                            "durationMicroseconds": 13,
-                            "functionName": "onSaveRequested",
-                            "line": 155,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 27,
-                            "durationMicroseconds": 34,
-                            "functionName": "rows",
-                            "line": 160,
+                            "line": 120,
                             "message": ""
                         },
                         {
@@ -226,7 +170,71 @@
                             "column": 27,
                             "durationMicroseconds": 37,
                             "functionName": "rows",
-                            "line": 163,
+                            "line": 148,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 29,
+                            "functionName": "source",
+                            "line": 149,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 36,
+                            "functionName": "widgets",
+                            "line": 150,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 89,
+                            "functionName": "onLayoutChanged",
+                            "line": 152,
+                            "message": "Cannot generate efficient code for calling method with argument affected by side effects"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 38,
+                            "durationMicroseconds": 17,
+                            "functionName": "onLayoutChanged",
+                            "line": 152,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 38,
+                            "durationMicroseconds": 55,
+                            "functionName": "onSaveRequested",
+                            "line": 156,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 38,
+                            "durationMicroseconds": 15,
+                            "functionName": "onSaveRequested",
+                            "line": 156,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 41,
+                            "functionName": "rows",
+                            "line": 161,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 31,
+                            "functionName": "rows",
+                            "line": 164,
                             "message": ""
                         },
                         {
@@ -234,7 +242,7 @@
                             "column": 40,
                             "durationMicroseconds": 48,
                             "functionName": "onReportGenerated",
-                            "line": 164,
+                            "line": 165,
                             "message": ""
                         },
                         {
@@ -242,15 +250,15 @@
                             "column": 40,
                             "durationMicroseconds": 14,
                             "functionName": "onReportGenerated",
-                            "line": 164,
+                            "line": 165,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 40,
-                            "durationMicroseconds": 68,
+                            "durationMicroseconds": 63,
                             "functionName": "onExportRequested",
-                            "line": 167,
+                            "line": 168,
                             "message": ""
                         },
                         {
@@ -258,7 +266,7 @@
                             "column": 40,
                             "durationMicroseconds": 15,
                             "functionName": "onExportRequested",
-                            "line": 167,
+                            "line": 168,
                             "message": ""
                         }
                     ],

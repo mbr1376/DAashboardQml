@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 364,
+                            "durationMicroseconds": 471,
                             "functionName": "navModel",
                             "line": 29,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 46,
-                            "durationMicroseconds": 2400,
+                            "durationMicroseconds": 3334,
                             "functionName": "color",
                             "line": 37,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 46,
-                            "durationMicroseconds": 51,
+                            "durationMicroseconds": 68,
                             "functionName": "color",
                             "line": 38,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 38,
+                            "durationMicroseconds": 58,
                             "functionName": "height",
                             "line": 44,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 43,
+                            "durationMicroseconds": 59,
                             "functionName": "color",
                             "line": 45,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 51,
+                            "durationMicroseconds": 59,
                             "functionName": "right",
                             "line": 43,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 43,
+                            "durationMicroseconds": 40,
                             "functionName": "fill",
                             "line": 49,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 920,
+                            "durationMicroseconds": 1276,
                             "functionName": "onPaint",
                             "line": 65,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 56,
                             "functionName": "centerIn",
                             "line": 62,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 61,
                             "functionName": "model",
                             "line": 102,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 95,
+                            "durationMicroseconds": 111,
                             "functionName": "color",
                             "line": 107,
                             "message": "Cannot access value for name sidebar"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 46,
+                            "durationMicroseconds": 58,
                             "functionName": "height",
                             "line": 113,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 182,
+                            "durationMicroseconds": 213,
                             "functionName": "color",
                             "line": 114,
                             "message": "Cannot access value for name sidebar"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 77,
                             "functionName": "left",
                             "line": 112,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 415,
+                            "durationMicroseconds": 406,
                             "functionName": "text",
                             "line": 122,
                             "message": "Cannot access value for name modelData"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 218,
+                            "durationMicroseconds": 210,
                             "functionName": "color",
                             "line": 123,
                             "message": "Cannot access value for name sidebar"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 78,
+                            "durationMicroseconds": 80,
                             "functionName": "left",
                             "line": 119,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 45,
-                            "durationMicroseconds": 58,
+                            "durationMicroseconds": 63,
                             "functionName": "verticalCenter",
                             "line": 121,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 50,
+                            "durationMicroseconds": 65,
                             "functionName": "family",
                             "line": 128,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 76,
+                            "durationMicroseconds": 64,
                             "functionName": "cursorShape",
                             "line": 135,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 332,
+                            "durationMicroseconds": 283,
                             "functionName": "onClicked",
                             "line": 136,
                             "message": "Cannot access value for name sidebar"
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 69,
+                            "durationMicroseconds": 70,
                             "functionName": "color",
                             "line": 154,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 197,
+                            "durationMicroseconds": 200,
                             "functionName": "color",
                             "line": 165,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 51,
+                            "durationMicroseconds": 49,
                             "functionName": "height",
                             "line": 169,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 161,
+                            "durationMicroseconds": 189,
                             "functionName": "color",
                             "line": 170,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 60,
+                            "durationMicroseconds": 70,
                             "functionName": "left",
                             "line": 168,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 183,
+                            "durationMicroseconds": 189,
                             "functionName": "color",
                             "line": 178,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 64,
+                            "durationMicroseconds": 63,
                             "functionName": "left",
                             "line": 174,
                             "message": ""
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 0,
                             "column": 41,
-                            "durationMicroseconds": 60,
+                            "durationMicroseconds": 63,
                             "functionName": "verticalCenter",
                             "line": 176,
                             "message": ""
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 39,
+                            "durationMicroseconds": 52,
                             "functionName": "family",
                             "line": 180,
                             "message": ""
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 48,
+                            "durationMicroseconds": 66,
                             "functionName": "cursorShape",
                             "line": 187,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 26,
+                            "durationMicroseconds": 40,
                             "functionName": "fill",
                             "line": 185,
                             "message": ""
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 46,
+                            "durationMicroseconds": 78,
                             "functionName": "left",
                             "line": 200,
                             "message": ""
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 0,
                             "column": 41,
-                            "durationMicroseconds": 39,
+                            "durationMicroseconds": 78,
                             "functionName": "verticalCenter",
                             "line": 202,
                             "message": ""
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 43,
+                            "durationMicroseconds": 74,
                             "functionName": "color",
                             "line": 207,
                             "message": ""
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 0,
                             "column": 43,
-                            "durationMicroseconds": 24,
+                            "durationMicroseconds": 39,
                             "functionName": "centerIn",
                             "line": 210,
                             "message": ""
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 0,
                             "column": 67,
-                            "durationMicroseconds": 34,
+                            "durationMicroseconds": 57,
                             "functionName": "family",
                             "line": 213,
                             "message": ""
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 0,
                             "column": 45,
-                            "durationMicroseconds": 48,
+                            "durationMicroseconds": 64,
                             "functionName": "verticalCenter",
                             "line": 218,
                             "message": ""
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 68,
                             "functionName": "color",
                             "line": 223,
                             "message": ""
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 0,
                             "column": 55,
-                            "durationMicroseconds": 47,
+                            "durationMicroseconds": 61,
                             "functionName": "weight",
                             "line": 224,
                             "message": ""
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 0,
                             "column": 78,
-                            "durationMicroseconds": 41,
+                            "durationMicroseconds": 68,
                             "functionName": "family",
                             "line": 224,
                             "message": ""
@@ -344,7 +344,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 52,
+                            "durationMicroseconds": 105,
                             "functionName": "color",
                             "line": 228,
                             "message": ""
@@ -352,7 +352,7 @@
                         {
                             "codegenResult": 0,
                             "column": 55,
-                            "durationMicroseconds": 40,
+                            "durationMicroseconds": 71,
                             "functionName": "family",
                             "line": 229,
                             "message": ""

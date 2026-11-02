@@ -150,6 +150,7 @@
 #define __cplusplus 201703L
 #define __cpp_ref_qualifiers 200710L
 #define DashboardPlugin_EXPORTS 1
+#define DASHBOARDPLUGIN_LIBRARY 1
 #define __DEC32_MIN__ 1E-95DF
 #define __DEPRECATED 1
 #define __POPCNT__ 1

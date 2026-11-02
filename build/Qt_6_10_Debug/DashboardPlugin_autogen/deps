@@ -8,16 +8,21 @@ DashboardPlugin_autogen/timestamp: \
 	/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/CMakeFiles/3.31.8/CMakeSystem.cmake \
 	/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardPlugin_autogen/moc_predefs.h \
 	/home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/DashboardPluginplugin_DashboardPlugin_in.cpp \
+	/home/client112/Documents/project/myself/qt-qml/cmake/DashboardConfig.cmake.in \
 	/home/client112/Documents/project/myself/qt-qml/src/chartmodels/donutchartitem.cpp \
 	/home/client112/Documents/project/myself/qt-qml/src/chartmodels/donuttchartitem.h \
 	/home/client112/Documents/project/myself/qt-qml/src/chartmodels/linechartitem.cpp \
 	/home/client112/Documents/project/myself/qt-qml/src/chartmodels/linechartitem.h \
+	/home/client112/Documents/project/myself/qt-qml/src/dashboard/dashboarddatamodel.h \
+	/home/client112/Documents/project/myself/qt-qml/src/dashboarddatamodel.cpp \
 	/home/client112/Documents/project/myself/qt-qml/src/dashboarddatasource.cpp \
 	/home/client112/Documents/project/myself/qt-qml/src/dashboarddatasource.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QAbstractItemModel \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QAbstractListModel \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QFlags \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QIODevice \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QList \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QMap \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QMetaType \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QObject \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QPointer \
@@ -30,6 +35,7 @@ DashboardPlugin_autogen/timestamp: \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QUrl \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariant \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariantList \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariantMap \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q17memory.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q20functional.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/q20iterator.h \
@@ -175,6 +181,7 @@ DashboardPlugin_autogen/timestamp: \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qutf8stringview.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariant.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariantlist.h \
+	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariantmap.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvarlengtharray.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qversionnumber.h \
 	/home/client112/Qt/6.10.1/gcc_64/include/QtCore/qversiontagging.h \
@@ -1441,6 +1448,7 @@ DashboardPlugin_autogen/timestamp: \
 	/usr/lib/gcc/x86_64-redhat-linux/11/include/stdarg.h \
 	/usr/lib/gcc/x86_64-redhat-linux/11/include/stdbool.h \
 	/usr/lib/gcc/x86_64-redhat-linux/11/include/stddef.h \
+	/usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in \
 	/usr/share/cmake/Modules/CMakeCXXInformation.cmake \
 	/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
@@ -1448,6 +1456,7 @@ DashboardPlugin_autogen/timestamp: \
 	/usr/share/cmake/Modules/CMakeGenericSystem.cmake \
 	/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake \
 	/usr/share/cmake/Modules/CMakeLanguageInformation.cmake \
+	/usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake \
 	/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
 	/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
 	/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
@@ -1479,4 +1488,5 @@ DashboardPlugin_autogen/timestamp: \
 	/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake/Modules/Platform/Linux.cmake \
 	/usr/share/cmake/Modules/Platform/UnixPaths.cmake \
+	/usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake \
 	/usr/bin/cmake

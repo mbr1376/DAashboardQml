@@ -1,6 +1,15 @@
 /home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/DashboardExample_autogen/include/main.moc: /home/client112/Documents/project/myself/qt-qml/examples/BasicApp/src/main.cpp \
   /home/client112/Documents/project/myself/qt-qml/build/Qt_6_10_Debug/examples/BasicApp/DashboardExample_autogen/moc_predefs.h \
+  /home/client112/Documents/project/myself/qt-qml/src/dashboard/dashboarddatamodel.h \
+  /home/client112/Qt/6.10.1/gcc_64/include/QtCore/QAbstractListModel \
+  /home/client112/Qt/6.10.1/gcc_64/include/QtCore/QList \
+  /home/client112/Qt/6.10.1/gcc_64/include/QtCore/QMap \
+  /home/client112/Qt/6.10.1/gcc_64/include/QtCore/QMetaType \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/QSettings \
+  /home/client112/Qt/6.10.1/gcc_64/include/QtCore/QString \
+  /home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariant \
+  /home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariantList \
+  /home/client112/Qt/6.10.1/gcc_64/include/QtCore/QVariantMap \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/q17memory.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/q20functional.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/q20iterator.h \
@@ -10,6 +19,7 @@
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/q23type_traits.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/q23utility.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qabstracteventdispatcher.h \
+  /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qabstractitemmodel.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qalgorithms.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qalloc.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qanystringview.h \
@@ -138,6 +148,8 @@
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qurl.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qutf8stringview.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariant.h \
+  /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariantlist.h \
+  /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvariantmap.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qversionnumber.h \
   /home/client112/Qt/6.10.1/gcc_64/include/QtCore/qversiontagging.h \
